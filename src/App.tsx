@@ -1,33 +1,29 @@
-import { useState } from "react"
+import { Button, Text } from "@chakra-ui/react"
+import { RiDownloadLine } from "react-icons/ri"
 import "./App.css"
-import reactLogo from "./assets/react.svg"
-import viteLogo from "/vite.svg"
+import { UnderConstruction } from "./components/underConstruction"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const isProd = import.meta.env.PROD
+
+  const downloadButtonClicked = () => {
+    window.gtag('event', 'button_click', {
+      event_category: 'engagement',
+      event_label: 'Download',
+    })
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {isProd && <UnderConstruction />}
+
+      {!isProd && (
+        <>
+          <Text>Race Vision</Text>
+          <Button onClick={downloadButtonClicked}><RiDownloadLine />Download Now</Button>
+          <Text color="GrayText">v0.1.1</Text>
+        </>
+      )}
     </>
   )
 }

@@ -1,10 +1,10 @@
 import { Box, Flex } from "@chakra-ui/react"
 import { BackgroundImage } from "./backgroundImage"
-import { LandingContent } from "./content"
+import { HeroContent } from "./content"
 
-export const LandingBox = () => {
+export const HeroBox = () => {
   return (
-    <Box position="relative" height='100%' width='100%'>
+    <Box position="relative" height='100%' width='100%' maxH="1440px">
       <BackgroundImage />
 
       <Flex
@@ -17,7 +17,7 @@ export const LandingBox = () => {
         justify="start"
         direction="column"
       >
-        <LandingContent />
+        <HeroContent />
       </Flex>
     </Box>
   )

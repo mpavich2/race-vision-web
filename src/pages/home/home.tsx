@@ -1,9 +1,15 @@
-import { LandingBox } from "@/components/landingBox"
+import { Footer } from "@/components/footer"
+import { HeroBox } from "@/components/heroBox"
+import { Features } from "@/components/sections/features"
 
 export const HomePage = () => {
   return (
     <>
-      <LandingBox />
+      <HeroBox />
+
+      <Features />
+
+      <Footer />
     </>
   )
 }

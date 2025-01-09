@@ -1,21 +1,15 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b766bcee-2d62-424d-8a06-f974400d6d30" alt"Race Vision Logo" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 About Race Vision
+**RaceVision** is an app designed to provide a free, user-friendly overlay solution for **iRacing** enthusiasts. Enhance your racing experience with real-time insights and clean visuals tailored for competitive racing.
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
-## Deploy Your Own
+## 📥 Download the Latest Version
+Get started with RaceVision today!
+- Visit our [official website](https://www.racevision.app/)
+- Or check out the [latest release on GitHub](https://github.com/mpavich2/RaceVision)
 
-Deploy your own Vite project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite-react&template=vite-react)
-
-_Live Example: https://vite-react-example.vercel.app_
-
-### Deploying From Your Terminal
-
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-$ vercel
-```
+## 💬 Feedback & Support
+We’d love to hear from you! Feel free to submit issues or suggestions via the [GitHub Issues](https://github.com/mpavich2/RaceVision/issues) page.

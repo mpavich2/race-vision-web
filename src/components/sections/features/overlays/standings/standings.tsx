@@ -1,5 +1,5 @@
 import { InfoSection } from "@/components/sections/common"
-import RelativeScreenshot from '../../../../../assets/overlay-screenshot.webp'
+import RelativeScreenshot from '../../../../../assets/standings-overlay.png'
 
 export const StandingsOverlayFeature = () => {
   return (

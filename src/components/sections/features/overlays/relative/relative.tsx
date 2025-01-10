@@ -1,7 +1,7 @@
 import { InfoSection } from '@/components/sections/common'
 import { useScrollContext } from '@/context/scrollContext'
 import { Box } from '@chakra-ui/react'
-import RelativeScreenshot from '../../../../../assets/overlay-screenshot.webp'
+import RelativeScreenshot from '../../../../../assets/relative-overlay.png'
 
 export const RelativeOverlayFeature = () => {
   // This will always be the first feature below the hero so setting scroll context ref here

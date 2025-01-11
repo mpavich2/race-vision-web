@@ -33,6 +33,7 @@ export const InfoSection = (props: {
           borderRadius="md"
           boxSize={{ base: '100%', md: '80%' }}
           objectFit="contain"
+          loading="lazy"
         />
       </Box>
     </Flex>

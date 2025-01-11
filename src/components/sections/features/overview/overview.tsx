@@ -10,6 +10,7 @@ export const Overview = () => {
         borderRadius="md"
         boxSize="100%"
         objectFit="cover"
+        loading="lazy"
       />
     </Box>
   )

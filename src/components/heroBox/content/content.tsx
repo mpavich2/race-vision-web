@@ -22,7 +22,9 @@ export const HeroContent = () => {
         <Box marginTop="7rem" justifyItems="center">
           <Text textShadow="3px 3px 6px rgba(0, 0, 0, 0.5)" color="white" fontWeight="medium" fontSize="x-large">A Simple, Free <b>iRacing</b> Overlay Solution</Text>
 
-          <Button size="lg" marginTop="2rem" colorPalette="red" onClick={downloadButtonClicked}><RiDownloadLine />Download Now</Button>
+          <Button as="a" href="/RaceVision.Setup.exe" size="lg" marginTop="2rem" colorPalette="red" onClick={downloadButtonClicked}>
+            <RiDownloadLine />Download Now
+          </Button>
           
           <Text textShadow="3px 3px 6px rgba(0, 0, 0, 0.5)" marginTop="2rem" fontSize="large" color="white">v0.1.1</Text>
         </Box>

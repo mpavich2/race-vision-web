@@ -26,7 +26,7 @@ export const HeroContent = () => {
 
           <Button size="lg" marginTop="2rem" colorPalette="red" onClick={downloadButtonClicked}><RiDownloadLine />Download Now</Button>
           
-          <Text textShadow="3px 3px 6px rgba(0, 0, 0, 0.5)" marginTop="2rem" fontSize="large" color="white">v0.1.1</Text>
+          <Text textShadow="3px 3px 6px rgba(0, 0, 0, 0.5)" marginTop="2rem" fontSize="large" color="white">v0.1.0-alpha</Text>
         </Box>
       </Box>
 

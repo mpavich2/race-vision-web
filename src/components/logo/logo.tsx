@@ -10,5 +10,5 @@ export const Logo = (props: {
   const imageSrc = props.isRed ? RedLogoSvg : LogoSvg
   const height = props.autoHeight ? 'auto' : '15rem'
 
-  return <Image src={imageSrc} height="auto" width={height} />
+  return <Image src={imageSrc} alt="RaceVision Logo" height="auto" width={height} />
 }

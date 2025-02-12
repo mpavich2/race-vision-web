@@ -29,7 +29,7 @@ export const InfoSection = (props: {
       <Box flex="6" display="flex" alignItems="center" justifyContent={{ base: 'center', md: justifyContent }}>
         <Image
           src={props.imgSrc} 
-          alt="Relative Feature Screenshot"
+          alt="Overlay Feature Screenshot"
           borderRadius="md"
           boxSize={{ base: '100%', md: '80%' }}
           objectFit="contain"

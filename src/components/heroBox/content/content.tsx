@@ -23,7 +23,7 @@ export const HeroContent = () => {
 
         <Box marginTop={{ base: '2rem', md: '7rem' }} justifyItems="center">
           <Heading as="h1" textShadow="3px 3px 6px rgba(0, 0, 0, 0.5)" color="white" fontWeight="medium" fontSize={{ base: 'large', md: 'x-large' }}>A Simple, Free <b>iRacing</b> Overlay Tool</Heading>
-          <Text as="h3" color="white" fontWeight="medium" fontSize={{ base: 'small', md: 'large' }} textShadow="3px 3px 6px rgba(0, 0, 0, 0.75)" mt={4} w="100%">RaceVision provides real-time race data and customizable overlays to improve your iRacing performance, all for free. Start using RaceVision today!</Text>
+          <Text as="h3" color="white" fontWeight="medium" fontSize={{ base: 'small', md: 'large' }} textShadow="3px 3px 6px rgba(0, 0, 0, 0.75)" mt={4} ml="auto" mr="auto" w="60%">RaceVision provides real-time race data and customizable overlays to improve your iRacing performance, all for free. Start using RaceVision today!</Text>
 
           <Button size="lg" marginTop="2rem" colorPalette="red" onClick={downloadButtonClicked}><RiDownloadLine />Download Now</Button>
           

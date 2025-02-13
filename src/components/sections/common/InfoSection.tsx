@@ -18,11 +18,11 @@ export const InfoSection = (props: {
       gap={{ base: '1.5rem', md: '0' }}
     >
       <Box flex="4" alignItems="center" justifyContent="center" display="flex" flexDir="column">
-        <Heading as="h2" fontSize="5xl" fontWeight="bold" mb={4} lineHeight={1.5}>
+        <Heading as="h2" fontSize={{ base: '3xl', md: '5xl' }} fontWeight="bold" mb={4} lineHeight={1.5}>
           {props.header}
         </Heading>
         
-        <Text as="p" fontSize="lg">
+        <Text as="p" fontSize={{ base: 'md', md: 'lg' }}>
           {props.description}
         </Text>
       </Box>

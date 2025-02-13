@@ -5,7 +5,7 @@ export const UnderConstruction = () => {
   return (
     <Flex direction="column" align="center" justify="center" margin="auto" height="100%">
       <Logo autoHeight />
-      <Text>Website and App are still under construction</Text>
+      <Text as="p">Website and App are still under construction</Text>
     </Flex>
   )
 }

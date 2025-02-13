@@ -14,7 +14,7 @@ export const LearnMoreButton = () => {
   
   return (
     <VStack onClick={scrollToContent} cursor="pointer">
-      <Text textStyle="xl">Learn More</Text>
+      <Text as="p" textStyle="xl">Learn More</Text>
       <RiArrowDownWideLine />
     </VStack>
   )

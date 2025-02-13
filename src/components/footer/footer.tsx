@@ -7,7 +7,7 @@ export const Footer = () => {
     <Box bg="#F6F8FA" py={6}>
       <Container maxW="container.lg">
         <Stack direction={{ base: 'column', md: 'row' }} align="center" justify="space-between">
-          <Text>&copy; {new Date().getFullYear()} Michael Pavich</Text>
+          <Text as="p">&copy; {new Date().getFullYear()} Michael Pavich</Text>
           <Stack direction="row">
             <Link href="https://github.com/mpavich2" target="_blank" aria-label="Visit my GitHub profile">
               <FaGithub size="1.5rem" />

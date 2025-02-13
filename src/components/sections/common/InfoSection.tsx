@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react"
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react"
 
 export const InfoSection = (props: {
   header: string
@@ -18,10 +18,10 @@ export const InfoSection = (props: {
       gap={{ base: '1.5rem', md: '0' }}
     >
       <Box flex="4">
-        <Text fontSize="5xl" fontWeight="bold" mb={4}>
+        <Heading as="h2" fontSize="5xl" fontWeight="bold" mb={4} lineHeight={1.5}>
           {props.header}
-        </Text>
-        <Text fontSize="lg">
+        </Heading>
+        <Text as="p" fontSize="lg">
           {props.description}
         </Text>
       </Box>

@@ -17,7 +17,7 @@ export const InfoSection = (props: {
       padding="2.5rem 5rem"
       gap={{ base: '1.5rem', md: '0' }}
     >
-      <Box flex="4">
+      <Box flex="4" alignItems="center" justifyContent="center">
         <Heading as="h2" fontSize="5xl" fontWeight="bold" mb={4} lineHeight={1.5}>
           {props.header}
         </Heading>

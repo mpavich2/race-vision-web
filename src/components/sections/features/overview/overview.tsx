@@ -1,5 +1,5 @@
 import { Box, Image } from "@chakra-ui/react"
-import OverviewImage from '../../../../assets/overlays-overview.png'
+import OverviewImage from '../../../../assets/overlays-overview.webp'
 
 export const Overview = () => {
   return (

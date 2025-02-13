@@ -1,5 +1,5 @@
 import { InfoSection } from "@/components/sections/common"
-import RelativeScreenshot from '../../../../../assets/input-graph-overlay.png'
+import RelativeScreenshot from '../../../../../assets/input-graph-overlay.webp'
 
 export const InputGraphOverlayFeature = () => {
   return (

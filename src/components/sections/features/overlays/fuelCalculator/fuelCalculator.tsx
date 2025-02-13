@@ -1,5 +1,5 @@
 import { InfoSection } from "@/components/sections/common"
-import RelativeScreenshot from '../../../../../assets/coming-soon.png'
+import RelativeScreenshot from '../../../../../assets/coming-soon.webp'
 
 export const FuelCalculatorOverlayFeature = () => {
   return (

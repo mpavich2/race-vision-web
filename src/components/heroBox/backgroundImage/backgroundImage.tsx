@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react"
-import Background from '../../../assets/iracing-screenshot.jpg'
+import Background from '../../../assets/iracing-screenshot.webp'
 
 export const BackgroundImage = () => {
   return (

@@ -1,8 +1,11 @@
+import { IGithubRelease } from "@/types/githubRelease"
 import { Box, Flex } from "@chakra-ui/react"
 import { BackgroundImage } from "./backgroundImage"
 import { HeroContent } from "./content"
 
-export const HeroBox = () => {
+export const HeroBox = (props: {
+  releaseInfo?: IGithubRelease
+}) => {
   return (
     <Box position="relative" height='100%' width='100%' maxH="1440px">
       <BackgroundImage />
@@ -17,7 +20,7 @@ export const HeroBox = () => {
         justify="start"
         direction="column"
       >
-        <HeroContent />
+        <HeroContent releaseInfo={props.releaseInfo} />
       </Flex>
     </Box>
   )

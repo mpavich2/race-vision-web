@@ -1,8 +1,45 @@
 {
+  "redirects": [
+    {
+      "source": "http://racevision.app",
+      "destination": "https://www.racevision.app",
+      "permanent": true
+    },
+    {
+      "source": "http://www.racevision.app",
+      "destination": "https://www.racevision.app",
+      "permanent": true
+    },
+    {
+      "source": "https://racevision.app",
+      "destination": "https://www.racevision.app",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "all"
+        }
+      ]
     }
   ]
 }

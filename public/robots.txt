@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://racevision.app/sitemap.xml
+Sitemap: https://www.racevision.app/sitemap.xml
